@@ -94,6 +94,7 @@ class MHeap<T> implements MyHeap<T>{
             if(o1 instanceof Character && o2 instanceof Character)
                 return (char)o2 - (char)o1;
             return (Integer) o2 -(Integer) o1;
+
         }
     }
 
